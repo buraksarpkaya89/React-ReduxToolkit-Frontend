@@ -1,0 +1,86 @@
+.jobname{
+   float: left;
+   margin-right: 20px ;
+}
+.jobpriority{
+    float: left;
+}
+label,input{
+    display:flex;
+    flex-direction:column;
+    position: relative;
+    margin-left: -3px;
+}
+
+.jobpriority select{
+    width: 100px;
+    text-align: center;
+    height: 30px;
+}
+button{
+    margin-top: 18px;
+    height: 30px;
+    margin-left: 10px;
+    background-color: #007bff;
+    border: #007bff;
+    border-radius: 2px;
+    width: 80px;
+    color: white;
+    
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #2a80dc;
+}
+h3{
+    margin-left: 10px;
+}
+
+.jobname label{
+    color: rgb(145, 140, 140);
+}
+.jobpriority label{
+    color: rgb(145, 140, 140);
+}
+
+
+@media screen and (max-width:480px) {
+    .jobname input{
+        width: 120px;
+        height: 25px;
+    }
+    .jobpriority select{
+        width: 70px;
+        text-align: center;
+        height: 30px;
+    }
+    
+    
+}
+
+@media screen and (max-width:768px) and (min-width:480px) {
+    .jobname input{
+        width: 250px;
+        height: 25px;
+
+    }
+    
+}
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+    .jobname input{
+        width: 500px;
+        height: 25px;
+
+    }
+    
+}
+@media screen and (min-width:1024px)  {
+    .jobname input{
+        width: 800px;
+        height: 25px;
+
+    }
+    
+}
